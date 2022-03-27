@@ -1,0 +1,29 @@
+#title {
+    color: violet;
+    font-weight: 900;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all ease-in-out 1000ms;
+}
+
+#title:hover {
+    color: darkslateblue;
+    font-size: xx-large;
+}
+
+#par {
+    color: red;
+}
+
+#myImage {
+    margin-top: 20px;
+    display: none;
+    height: 400px;
+    width: 600px;
+    border-radius: 12px;
+}
+
+#myImage:hover {
+    box-shadow: 10px 10px 8px rgb(82, 78, 78);
+    transition: all ease-in-out 1000ms;
+}
